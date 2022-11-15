@@ -1,0 +1,56 @@
+.palabra-santa {
+    &__subContainer {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10vh;
+    }
+  
+    &__box-info {
+      font-size: 22px;
+    }
+  
+    &__box-img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+      transition: .2s ease;
+    }
+
+    &__photo :hover {
+        opacity: 0.7;
+        position: relative;
+    }    
+
+    &__info-one {
+      transition: .2s ease;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    &__info-two {
+      transition: .2s ease;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    &__info-three{
+      transition: .2s ease;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    
+  }
+  
